@@ -1,0 +1,14 @@
+@import "compass";
+
+$container_bg: #F00;
+.container {
+  width: 100%;
+  background: $container_bg;
+  a {
+    color: green;
+  }
+  li {
+    background: rgba($container_bg, 0.1);
+    @include single-box-shadow;
+  }
+}

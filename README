@@ -1,0 +1,23 @@
+This is a Compass project to play
+with Sass, Haml and Compass.
+
+To learn about Sass and Haml, go to
+sass-lang.com and haml-lang.com.
+Learn more about compass at compass-style.org.
+
+You should have the appropriate gems on your machine already,
+but you will need haml, sass, and compass. Install these by 
+running gem install [gem].
+
+To write markup, edit input.haml with your haml code,
+and run haml input.haml output.haml to compile it.
+Open output.html in your browser (double clicking the file
+should work) to see your changes.
+
+To work on the Sass/Compass, edit sass/screen.scss and 
+run compass compile. This will compile your sass into
+the screen.css loaded in the input.haml (and therefore output)
+file. Only screen.css is loaded at the moment, feel free to
+try out adding new sheets and style tags.
+
+Have fun!
